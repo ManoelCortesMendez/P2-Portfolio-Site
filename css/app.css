@@ -1,0 +1,41 @@
+/*Doc*/
+html * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Header CSS grid layout*/
+body {
+  min-width: 320px;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+/*Elements*/
+header {
+  align-items: center;
+  border-bottom: 2px solid #C2AEAE;
+  margin: 0 20px;
+  padding: 20px 0;
+}
+.top-logo {
+  height: 40px;
+  width: 40px;
+}
+.logo-box {
+  justify-self: start;
+}
+.info-box {
+  justify-self: end;
+  text-align: right;
+}
+.my-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+.my-job {
+  font-size: 16px;
+}
