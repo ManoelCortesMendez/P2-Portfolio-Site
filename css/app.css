@@ -46,6 +46,7 @@ header {
 .project-card {
   height: 308px;
   border-radius: 10px;
+  box-shadow: 0 0 10px grey;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -112,5 +113,6 @@ header {
   body {
     max-width: 1700px;
     margin: auto;
+    box-shadow: 0 0 100px grey;
   }
 }
