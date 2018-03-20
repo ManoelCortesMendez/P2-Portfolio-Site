@@ -6,6 +6,7 @@ html * {
 }
 body {
   min-width: 320px;
+  min-height: 100vh; /*So that body reaches bottom*/
 }
 
 /*Header*/
@@ -37,7 +38,7 @@ header {
 /*Main*/
 #main {
   margin: 0 20px;
-  padding: 20px 0;
+  padding: 30px 0;
   display: grid;
   grid-template-columns: 1fr;
   grid-row-gap: 20px;
@@ -92,4 +93,24 @@ header {
 }
 #project-6 {
   background-color: #A4CF07;
+}
+
+/*Media queries*/
+@media screen and (min-width: 700px) {
+  #main {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  #main {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+  }
+}
+@media screen and (min-width: 1700px) {
+  body {
+    max-width: 1700px;
+    margin: auto;
+  }
 }
