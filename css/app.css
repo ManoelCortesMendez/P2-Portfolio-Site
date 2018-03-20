@@ -68,6 +68,7 @@ header {
   font-size: 25px;
   color: white;
   text-transform: uppercase;
+  text-align: center; /*So snow leopard is centered*/
   grid-area: name;
   justify-self: center;
 }
@@ -94,6 +95,15 @@ header {
 }
 #project-6 {
   background-color: #A4CF07;
+}
+#project-7 {
+  background-color: #7f6a53;
+}
+#project-8 {
+  background-color: #d7c4af;
+}
+#project-9 {
+  background-color: #9fb81a;
 }
 
 /*Media queries*/
