@@ -57,6 +57,9 @@ header {
     "name name name github";
   align-items: center;
 }
+.project-card:hover{
+  box-shadow: 0 0 50px grey;
+}
 .animal-img {
   width: 100%;
   height: 100%;
