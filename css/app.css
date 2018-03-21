@@ -75,11 +75,13 @@ header {
 }
 .project-name {
   font-size: 25px;
+  font-weight: 400;
   color: white;
   text-transform: uppercase;
-  text-align: center; /*Center 'Snow Leopard' text*/
   grid-area: name;
   justify-self: center;
+  text-align: center; /*Center 'Snow Leopard' text*/
+  margin: 0 20px; /*Prevent 'Snow Leopard' touching logo*/
 }
 .github-logo {
   width: 40px;
