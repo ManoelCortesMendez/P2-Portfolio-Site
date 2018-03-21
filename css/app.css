@@ -21,12 +21,10 @@ header {
 #header-logo {
   width: 40px;
   height: 40px;
-  justify-self: start;
 }
 #header-text {
   color: #2D3C49;
   text-align: right;
-  justify-self: end;
 }
 #my-name {
   font-size: 20px;
@@ -79,7 +77,6 @@ header {
   color: white;
   text-transform: uppercase;
   grid-area: name;
-  justify-self: center;
   text-align: center; /*Center 'Snow Leopard' text*/
   margin: 0 20px; /*Prevent 'Snow Leopard' touching logo*/
 }
