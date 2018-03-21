@@ -1,15 +1,18 @@
 /*Doc*/
+
 html * {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
 }
+
 body {
   min-width: 320px;
   min-height: 100vh; /*Stretch body to reach bottom*/
 }
 
 /*Header*/
+
 header {
   margin: 0 20px;
   padding: 20px 0;
@@ -18,24 +21,29 @@ header {
   grid-template-columns: 1fr 5fr;
   align-items: center;
 }
+
 #header-logo {
   width: 40px;
   height: 40px;
 }
+
 #header-text {
   color: #2D3C49;
   text-align: right;
 }
+
 #my-name {
   font-size: 20px;
   font-weight: 600;
 }
+
 #my-job {
   font-size: 16px;
   font-weight: 400;
 }
 
 /*Main*/
+
 #main {
   margin: 0 20px;
   padding: 30px 0;
@@ -43,6 +51,7 @@ header {
   grid-template-columns: 1fr;
   grid-row-gap: 20px;
 }
+
 .project-card {
   height: 308px;
   border-radius: 10px;
@@ -57,13 +66,16 @@ header {
     "name name name github";
   align-items: center;
 }
+
 .project-card:hover{
   box-shadow: 0 0 50px grey;
 }
+
 .animal-pic {
   align-self: stretch;
   grid-area: image;
 }
+
 .animal-img {
   width: 100%;
   height: 100%;
@@ -71,6 +83,7 @@ header {
   object-fit: cover;
 
 }
+
 .project-name {
   font-size: 25px;
   font-weight: 400;
@@ -80,41 +93,52 @@ header {
   text-align: center; /*Center 'Snow Leopard' text*/
   margin: 0 20px; /*Prevent 'Snow Leopard' touching logo*/
 }
+
 .github-logo {
   width: 40px;
   height: 40px;
   fill: white;
   grid-area: github;
 }
+
 #project-1 {
   background-color: #F72801;
 }
+
 #project-2 {
   background-color: #4B3B61;
 }
+
 #project-3 {
   background-color: #0D286B;
 }
+
 #project-4 {
   background-color: #827738;
 }
+
 #project-5 {
   background-color: #8C91B7;
 }
+
 #project-6 {
   background-color: #A4CF07;
 }
+
 #project-7 {
   background-color: #7f6a53;
 }
+
 #project-8 {
   background-color: #d7c4af;
 }
+
 #project-9 {
   background-color: #9fb81a;
 }
 
 /*Footer*/
+
 footer {
   margin: 0 20px;
   padding: 20px 0;
@@ -122,6 +146,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
 }
+
 #footer-logo {
   width: 40px;
   height: 40px;
@@ -129,18 +154,21 @@ footer {
 }
 
 /*Media queries*/
+
 @media screen and (min-width: 700px) {
   #main {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 20px;
   }
 }
+
 @media screen and (min-width: 1300px) {
   #main {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 20px;
   }
 }
+
 @media screen and (min-width: 1700px) {
   body {
     max-width: 1700px;
