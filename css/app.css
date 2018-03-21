@@ -24,6 +24,7 @@ header {
   justify-self: start;
 }
 #header-text {
+  color: #2D3C49;
   text-align: right;
   justify-self: end;
 }
@@ -33,6 +34,7 @@ header {
 }
 #my-job {
   font-size: 16px;
+  font-weight: 400;
 }
 
 /*Main*/
