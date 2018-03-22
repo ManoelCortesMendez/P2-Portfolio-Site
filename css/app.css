@@ -3,7 +3,7 @@
 html * {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 header {
   margin: 0 20px;
   padding: 20px 0;
-  border-bottom: 2px solid #C2AEAE;
+  border-bottom: 2px solid #c2aeae;
   display: grid;
   grid-template-columns: 1fr 5fr;
   align-items: center;
@@ -30,7 +30,7 @@ header {
 }
 
 #header-text {
-  color: #2D3C49;
+  color: #2d3c49;
   text-align: right;
 }
 
@@ -105,15 +105,15 @@ header {
 }
 
 #project-1 {
-  background-color: #F72801;
+  background-color: #f72801;
 }
 
 #project-2 {
-  background-color: #4B3B61;
+  background-color: #4b3b61;
 }
 
 #project-3 {
-  background-color: #0D286B;
+  background-color: #0d286b;
 }
 
 #project-4 {
@@ -121,11 +121,11 @@ header {
 }
 
 #project-5 {
-  background-color: #8C91B7;
+  background-color: #8c91b7;
 }
 
 #project-6 {
-  background-color: #A4CF07;
+  background-color: #a4cf07;
 }
 
 #project-7 {
@@ -145,7 +145,7 @@ header {
 footer {
   margin: 0 20px;
   padding: 20px 0;
-  border-top: 2px solid #C2AEAE;
+  border-top: 2px solid #c2aeae;
   display: grid;
   grid-template-columns: 1fr;
 }
